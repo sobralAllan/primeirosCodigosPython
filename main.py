@@ -1,6 +1,7 @@
 import this
 import cadastrarUsuario
 this.opcao = 1
+import arquivos
 
 
 def menu():
@@ -61,7 +62,9 @@ def coletar():
 
 if __name__ == "__main__":
     #operacao() #Chamando o método que executa a operação
-    coletar()
+    #arquivos.escrever("Allan ")
+    arquivos.adicionar("Deu Certo")
+    print(arquivos.ler())
 
 
 
