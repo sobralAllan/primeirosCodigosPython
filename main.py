@@ -55,17 +55,17 @@ def frutas():
         print(x)
 
 def coletar():
-    vetor = [0,1,5,6,8,90]
+    vetor = ["0",1,5,6,8,90]
     for i in range(len(vetor)):
-        print(vetor[i])
+        arquivos.adicionar(str(vetor[i]))
 
 
 if __name__ == "__main__":
     #operacao() #Chamando o método que executa a operação
     #arquivos.escrever("Allan ")
-    arquivos.adicionar("Deu Certo")
+    #arquivos.escrever(coletar())
+    coletar()
     print(arquivos.ler())
-
 
 
 
